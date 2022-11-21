@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function Header() {
+function Header({ score }) {
   return (
-    <div className='header'>
-        <h1>Photo Tagging App</h1>
-        <h2>Score: 0</h2>
+    <div className="header">
+      <h1>Photo Tagging App</h1>
+      <h2>Score: {score}</h2>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

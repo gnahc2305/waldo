@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
+import Info from './components/Info';
 
 function App() {
   const [score, setScore] = useState(0);
@@ -19,7 +20,9 @@ function App() {
 
   return (
     <div className="app">
-      <Header />
+      <Header score={score} />
+      <Info />
+
       <div className="person1" onClick={addScore}>
 
       </div>
