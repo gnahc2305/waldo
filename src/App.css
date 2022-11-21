@@ -12,9 +12,9 @@ html {
 }
 
 .dog {
-  height: 50px;
-  width: 80px;
-  background-color: black;
+  height: 60px;
+  width: 90px;
+  /* background-color: black; */
   opacity: 0.5;
   position: absolute;
   right: 25%;
@@ -44,9 +44,9 @@ html {
 }
 
 .boots {
-  height: 30px;
-  width: 60px;
-  background-color: black;
+  height: 40px;
+  width: 70px;
+  /* background-color: black; */
   opacity: 0.5;
   position: absolute;
   bottom: 0%;
@@ -54,9 +54,9 @@ html {
 }
 
 .cookie {
-  height: 50px;
-  width: 80px;
-  background-color: black;
+  height: 60px;
+  width: 90px;
+  /* background-color: black; */
   opacity: 0.5;
   position: absolute;
   bottom: 35%;
