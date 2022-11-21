@@ -23,9 +23,10 @@ function App() {
       <Header score={score} />
       <Info />
 
-      <div className="person1" onClick={addScore}>
+      <div className="dog"></div>
+      <div className="boots"></div>
+      <div className="cookie"></div>
 
-      </div>
     </div>
   );
 }

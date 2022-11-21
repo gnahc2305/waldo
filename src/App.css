@@ -11,10 +11,11 @@ html {
   background-size: cover;
 }
 
-.person1 {
+.dog {
   height: 100px;
   width: 100px;
-  /* background-color: red; */
+  background-color: red;
+  position: absolute;
 }
 
 .header {
