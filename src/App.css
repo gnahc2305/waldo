@@ -12,10 +12,13 @@ html {
 }
 
 .dog {
-  height: 100px;
-  width: 100px;
-  background-color: red;
+  height: 50px;
+  width: 80px;
+  background-color: black;
+  opacity: 0.5;
   position: absolute;
+  right: 25%;
+  bottom: 53%;
 }
 
 .header {
@@ -38,4 +41,24 @@ html {
   padding: 15px;
   border-radius: 10px;
   font-size: 25px;
+}
+
+.boots {
+  height: 30px;
+  width: 60px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 0%;
+  left: 28%;
+}
+
+.cookie {
+  height: 50px;
+  width: 80px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 35%;
+  left: 56%;
 }
